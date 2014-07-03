@@ -204,8 +204,9 @@ if __name__ == '__main__':
     screen = pygame.display.set_mode((960, 512))
     Menu().main(screen)
 
+
 """
-Get system fonts:
+How to get system fonts:
 import pygame
 print(pygame.font.get_fonts())
 """
