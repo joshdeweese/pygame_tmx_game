@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="menu" tilewidth="160" tileheight="64">
+  <image source="graphics/menu_options.png" width="1280" height="64"/>
+ </tileset>
+ <layer name="tiles" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgAeNAO2CEAKaBdsAoGAWjAA4AE5gABA==
+  </data>
+ </layer>
+ <objectgroup name="buttons" width="30" height="16" visible="0">
+  <object name="play" x="384" y="160" width="160" height="64">
+   <properties>
+    <property name="play" value="play"/>
+   </properties>
+  </object>
+  <object name="quit" x="384" y="256" width="160" height="64">
+   <properties>
+    <property name="quit" value="quit"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
