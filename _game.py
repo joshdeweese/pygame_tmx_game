@@ -20,7 +20,7 @@ class Enemy(pygame.sprite.Sprite):
     def __init__(self, location, *groups):
         super(Enemy, self).__init__(*groups)
         self.direction = 1
-        self.image = pygame.image.load('graphics/spider.png')
+        self.image = pygame.image.load('graphics/spider-left.png')
         self.image_left = self.image
         self.image_right = pygame.image.load('graphics/spider-right.png')
         self.rect = pygame.rect.Rect(location, self.image.get_size())
